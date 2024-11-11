@@ -1,0 +1,102 @@
+getgenv().james = {
+   ['Target Part'] = "UpperTorso",
+   ['Prediction'] = {
+       ['Amount'] = 0.1535,
+   },
+   ['Offset'] = {
+       ['Jump'] = -1.5
+   },
+   ['Auto Prediction'] = true,
+   ['Camera'] = {
+       ['Enabled'] = true,
+       ['Smoothing'] = 1
+   },
+   ['Features'] = {
+       ['Look At'] = false,
+       ['Auto Air'] = false,
+       ['Highlight Target'] = false,
+       ['Notify'] = true
+   },
+   ['Highlight'] = {
+       ['FillColor'] = Color3.fromRGB(255, 0, 0),
+       ['OutlineColor'] = Color3.fromRGB(0, 0, 0),
+       ['FillTransparency'] = 0.5,
+       ['OutlineTransparency'] = 0
+   },
+   ['CFrame Desync'] = {
+       ['Enabled'] = true,
+       ['Angles Enabled'] = false,
+       ['Type'] = "Target Strafe",
+       ['Visualize'] = true,
+       ['View Target'] = false,
+       ['Visualize Color'] = Color3.fromRGB(255, 255, 255),
+       ['Random'] = {
+           ['X'] = 5, ['Y'] = 5, ['Z'] = 5,
+           ['Angles X'] = 5, ['Angles Y'] = 5, ['Angles Z'] = 5
+       },
+       ['Custom'] = {
+           ['X'] = 5, ['Y'] = 5, ['Z'] = 5,
+           ['Angles X'] = 5, ['Angles Y'] = 5, ['Angles Z'] = 5
+       },
+       ['Target Strafe'] = {
+           ['X'] = 5, ['Y'] = 5, ['Z'] = 7
+       }
+   },
+   ['Hit Detection'] = {
+       ['Hit Sound'] = {
+           ['Enabled'] = true,
+           ['Sound'] = "Neverlose",
+           ['Volume'] = 1
+       },
+       ['Clone Chams'] = {
+           ['Enabled'] = true,
+           ['Color'] = Color3.fromRGB(255, 0, 0),
+           ['Duration'] = 1.5,
+           ['Material'] = Enum.Material.ForceField
+       }
+   },
+   ['Visuals'] = {
+       ['Crosshair'] = {
+           ['Enabled'] = true,
+           ['Width'] = 1.5,
+           ['Length'] = 10,
+           ['Radius'] = 11,
+           ['Color'] = Color3.fromRGB(255, 0, 0),
+           ['Stick To Target'] = false,
+           ['Text'] = {
+               ['First'] = {
+                   ['Text'] = "james",
+                   ['Color'] = Color3.fromRGB(255, 0, 0)
+               },
+               ['Second'] = {
+                   ['Text'] = " .cc",
+                   ['Color'] = Color3.fromRGB(255, 255, 255)
+               }
+           },
+           ['Spin'] = {
+               ['Enabled'] = true,
+               ['Speed'] = 150,
+               ['Max'] = 340,
+               ['Style'] = Enum.EasingStyle.Sine
+           },
+           ['Resize'] = {
+               ['Enabled'] = true,
+               ['Speed'] = 150,
+               ['Min'] = 5,
+               ['Max'] = 22
+           }
+       }
+   },
+   ['Strafe'] = {
+       ['Enabled'] = false,
+       ['Speed'] = 5,
+       ['Distance'] = 3,
+       ['Height'] = 0
+   },
+   ['CFrame Walk'] = {
+       ['Enabled'] = false,
+       ['Speed'] = 1
+   }
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0294296d54403ee90f093cc082878d98.lua"))()
